@@ -1,0 +1,38 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pomodoro Clock Timer</title>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src='pomodoro.js' type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href='pom.css'>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    </head>
+    
+    <body >
+
+    <div class='main'>
+        <h1>Pomodoro Clock Timer</h1>
+        <div id='timer'></div>
+
+        <div class='control'>
+            <div id='inner'>
+                <button class='change' sign='0'>-</button>
+                <button class='change' sign='1'>+</button>
+                <br/>
+                <button id='start' calss="show statebtn">Start</button>
+                <button id='stop' class="hidden statebtn">Stop</button>
+                <button id='reset' class="hidden statebtn">Reset</button>
+            </div>
+        </div>
+    
+    </div>
+
+    <footer>
+        Rohit Yadav. FreeCodeCamp.
+    </footer>
+
+    </body>
+</html>
